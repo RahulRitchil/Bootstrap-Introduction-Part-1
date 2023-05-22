@@ -1,0 +1,80 @@
+@media (max-width: 376px){
+    .navbar-toggler {
+        background-color: #ffffff;
+    }
+    .carousel-image {
+        height: 20rem;
+    }
+    .card {  
+        display: block;
+    }
+    .row {
+        display: block;
+    }
+    .col-md-4 {
+        width: 100%;
+    }
+    .col-md-8 {
+        width: 100%;
+    }
+}
+@media (min-width: 376px) and (max-width: 576px) {
+    .navbar-toggler {
+        background-color: #ffffff;
+    }
+    .carousel-image {
+        height: 25rem;
+    }
+    .card {  
+        display: block;
+    }
+    .row {
+        display: block;
+    }
+    .col-md-4 {
+        width: 100%;
+    }
+    .col-md-8 {
+        width: 100%;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+    .navbar-toggler {
+        background-color: #ffffff;
+    }
+    .carousel-image {
+        height: 26rem;
+    }
+    .card {  
+        display: block;
+    }
+    .row {
+        display: block;
+    }
+    .col-md-4 {
+        width: 100%;
+    }
+    .col-md-8 {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    .navbar-toggler {
+        background-color: #ffffff;
+    }
+    .card {  
+        display: block;
+    }
+    .row {
+        display: block;
+    }
+    .col-md-4 {
+        width: 100%;
+    }
+    .col-md-8 {
+        width: 100%;
+    }
+    .row-cols-md-3 > * {
+        width: 100%;
+    }
+}
