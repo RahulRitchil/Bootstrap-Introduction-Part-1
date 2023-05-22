@@ -22,6 +22,9 @@
     .navbar-toggler {
         background-color: #ffffff;
     }
+    .container, .container-sm {
+        max-width: 60rem;
+    }
     .carousel-image {
         height: 25rem;
     }
@@ -45,6 +48,9 @@
     .carousel-image {
         height: 26rem;
     }
+    .container, .container-sm {
+        max-width: 60rem;
+    }
     .card {  
         display: block;
     }
@@ -62,6 +68,12 @@
     .navbar-toggler {
         background-color: #ffffff;
     }
+    .carousel-image {
+        height: 35rem;
+    }
+    .container, .container-md, .container-sm {
+        max-width: 60rem;
+    }
     .card {  
         display: block;
     }
@@ -76,5 +88,10 @@
     }
     .row-cols-md-3 > * {
         width: 100%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    .carousel-image {
+        height: 40rem;
     }
 }
